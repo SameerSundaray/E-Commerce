@@ -1,0 +1,44 @@
+/* Cart.css */
+
+.cart-container {
+    position: fixed;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .cart {
+    width: 300px; /* Adjust width as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .cart h3 {
+    margin-top: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item img {
+    width: 50px; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  
+  .total {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .total p {
+    margin: 5px 0;
+  }
+  
+  .total button {
+    margin-top: 5px;
+  }
+  
